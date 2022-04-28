@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".RNG">
+
+    <EditText
+        android:id="@+id/minNumber"
+        android:textSize="50sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:hint="@string/min_number">
+
+    </EditText>
+
+    <EditText
+        android:id="@+id/maxNumber"
+        android:textSize="50sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:hint="@string/max_number">
+
+    </EditText>
+
+    <Button
+        android:id="@+id/buttonGenerate"
+        android:text="@string/generate"
+        android:textSize="50sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    </Button>
+
+    <TextView
+        android:id="@+id/rollText"
+        android:textSize="100sp"
+        android:textColor="@color/pink"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    </TextView>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="250dp" />
+
+
+</LinearLayout>

@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Druk</string>
+    <string name="random_number_generator">Random number generator</string>
+    <string name="roll_a_dice">Roll a dice</string>
+    <string name="min_number">Min number</string>
+    <string name="max_number">Max number</string>
+    <string name="generate">GENERATE</string>
+    <string name="roll">ROLL</string>
+</resources>

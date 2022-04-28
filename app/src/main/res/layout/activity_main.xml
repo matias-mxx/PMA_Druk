@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/buttonRAD"
+        android:layout_width="400dp"
+        android:layout_height="300dp"
+        android:onClick="openRAD"
+        android:text="@string/roll_a_dice"
+        android:textSize="50sp">
+
+    </Button>
+
+    <Button
+        android:id="@+id/buttonRNG"
+        android:layout_width="400dp"
+        android:layout_height="300dp"
+        android:onClick="openRNG"
+        android:text="@string/random_number_generator"
+        android:textSize="50sp">
+
+    </Button>
+
+</LinearLayout>
